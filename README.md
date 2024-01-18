@@ -18,5 +18,5 @@ I had some objectives in mind to make a "special" version:
 - try my hand at the mask principle (with sprites for balls and paddles)
 - and other things
 
-I think there's a lot of code that could be optimized, and I'd be delighted to get feedback if people drop by and give it a try (I'm French, but I've done my best to make it as English as possible, so I hope it'll be readable for everyone).
+I think there's a lot of code that could be optimized, and I'd be glad to get feedback if people drop by and give it a try (I'm French, but I've done my best to make it as English as possible, so I hope it'll be readable for everyone).
 
