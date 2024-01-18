@@ -1,0 +1,16 @@
+1) choose your game_mode : up/down arrow to choose then press ENTER
+2) choose your VS (AI or two player) : left/right arrow to choose then press ENTER
+	2.1) you can ESCAPE if you failed the game mode selection
+3) during a game press ESCAPE to pause the game : left/right arrow to choose then press ENTER
+
+
+one player :
+	left player : up = z
+		      down = s
+	right player : AI
+
+two player :
+	left player : up = z
+		      down = s
+	right player : up = up arrow
+		       down = down arrow 
