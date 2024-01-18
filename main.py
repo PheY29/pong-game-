@@ -7,17 +7,16 @@ from menu import Start, Pause, WinningScreen
 
 pygame.init()
 
-# FPS
 clock = pygame.time.Clock()
 FPS = 60
 
-# GESTION FENÊTRE
 SCREEN_WIDTH = 1100
 SCREEN_HEIGHT = 700
 pygame.display.set_caption("Pong")
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+icon = pygame.image.load("assets/icon.png")
+pygame.display.set_icon(icon)
 
-# GESTION DES MENUS
 game_state_manager = GameStateManager("start")  # 1er page afficher
 game = Game(screen, game_state_manager)
 game_plus = GamePlus(screen, game_state_manager)
@@ -33,7 +32,6 @@ states = {
     "winning_screen": winning_screen
 }
 
-# BOUCLE DU JEU
 running = True
 while running:
 
